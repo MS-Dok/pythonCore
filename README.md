@@ -1,0 +1,2 @@
+# pythonCore
+PythonCore Tasks Code 
