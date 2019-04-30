@@ -1,0 +1,4 @@
+def reverse(st):
+    # Your Code Here
+    result=st.split()
+    return ' '.join(result[::-1])
