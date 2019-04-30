@@ -1,0 +1,2 @@
+a=int(input("Please enter the value:\n"))
+print("The number is odd" if(a%2!=0) else "The number is even")
