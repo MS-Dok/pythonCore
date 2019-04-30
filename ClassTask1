@@ -1,0 +1,8 @@
+a=int(input('Enter first number:\n'))
+b=int(input('Enter second number:\n'))
+if a>b:
+    print("A is bigger than B")
+elif a==b:
+    print("A equals B")
+else:
+    print("A is less than B")
