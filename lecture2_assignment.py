@@ -33,8 +33,7 @@ print(fact(value))
 first_value=int(input('Enter the value A:'))
 second_value=int(input('Enter the value B:'))
 user_values=(first_value,second_value)
-value_range=range(1,user_values[0]+1)
-for i in value_range[::-1]:
+for i in range(1,user_values[0]+1)[::-1]:
   if user_values[0]%i==0 and user_values[1]%i==0:
     print("The greatest common divisor for values %s and %s is %s"%(user_values[0],user_values[1],i))
     break
