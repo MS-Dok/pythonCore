@@ -89,3 +89,5 @@ for i in list_ex:
 """
 8.  Відсортувати слова в реченні в порядку їх довжини (використати List Comprehensions)
 """
+sentence="На початку на вхід подається кількість елементів послідовності а потім самі елементи."
+print(sorted([x for x in set(sentence.lower().split())],key=len))
